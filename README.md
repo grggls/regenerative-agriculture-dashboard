@@ -1,6 +1,6 @@
 # Regenerative Agriculture Dashboard
 
-The Regenerative Agriculture Dashboard is a web application that provides key metrics and data visualizations related to regenerative agriculture practices. The dashboard aims to showcase the benefits and adoption of regenerative agriculture, empowering users with valuable insights.
+The Regenerative Agriculture Dashboard is a web application that provides key metrics and data visualizations related to regenerative agriculture practices. The dashboard aims to showcase the benefits and adoption of regenerative agriculture, empowering users with valuable insights. The primary focus of this project is on data sources and practices relevant to Europe and Germany.
 
 ## Features
 
@@ -22,7 +22,7 @@ The Regenerative Agriculture Dashboard is a web application that provides key me
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/regenerative-agriculture-dashboard.git
+   git clone https://github.com/grggls/regenerative-agriculture-dashboard.git
    ```
 
 2. Navigate to the project directory:
@@ -46,10 +46,14 @@ The Regenerative Agriculture Dashboard is a web application that provides key me
 
 ## Data Sources
 
-The Regenerative Agriculture Dashboard utilizes data from the following sources:
+The Regenerative Agriculture Dashboard utilizes data from the following sources, with a focus on European and German data:
 
-- [NRCS Soil Survey Geographic (SSURGO) Database](https://websoilsurvey.nrcs.usda.gov/)
-- [USDA National Agricultural Statistics Service (NASS) Data](https://quickstats.nass.usda.gov/)
+- [European Soil Data Centre (ESDAC)](https://esdac.jrc.ec.europa.eu/)
+- [Land Use/Cover Area frame Survey (LUCAS)](https://ec.europa.eu/eurostat/web/lucas)
+- [Federal Institute for Geosciences and Natural Resources (BGR) - Germany](https://www.bgr.bund.de/EN/Home/homepage_node_en.html)
+- [German Agricultural Soil Inventory (BZE-LW)](https://www.thuenen.de/en/ak/projects/agricultural-soil-inventory-bze-lw/)
+- [German Weather Service (DWD) - Climate Data](https://www.dwd.de/EN/climate_environment/climatemonitoring/climatemonitoring_node.html)
+- [Federal Statistical Office (Destatis) - Germany](https://www.destatis.de/EN/Home/_node.html)
 - [Regenerative Agriculture Dataset by Rodale Institute](https://rodaleinstitute.org/science/farming-systems-trial/farming-systems-trial-data/)
 - [OpenTEAM (Open Technology Ecosystem for Agricultural Management) Data](https://openteam.community/data-platform/)
 - [FAO (Food and Agriculture Organization) Soil Organic Carbon Map](http://54.229.242.119/GSOCmap/)

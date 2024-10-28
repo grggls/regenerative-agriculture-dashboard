@@ -1,20 +1,52 @@
 # Dataset, Features, Access, Licensing, Attribution
 
-| Dataset Name | NRCS Soil Survey Geographic (SSURGO) Database |
+| Dataset Name | European Soil Data Centre (ESDAC) |
 | :----------- | :-------------------------------------------- |
-| Description  | Provides detailed information about soil properties, including soil health indicators like organic matter content and soil texture |
-| Data Access  | https://websoilsurvey.nrcs.usda.gov/ |
-| Key Features | Soil properties, Soil health indicators, Organic matter content, Soil texture|
-| Terms of Use | Public domain |
-| Attribution  | Soil Survey Staff |
+| Description  | ESDAC is the thematic center for soil-related data in Europe. It provides access to soil data and information at the European level. |
+| Data Access  | https://esdac.jrc.ec.europa.eu/ |
+| Key Features | European soil data, soil properties, soil health indicators |
+| Terms of Use | Varies by dataset |
+| Attribution  | European Soil Data Centre (ESDAC) |
 
-| Dataset Name | USDA National Agricultural Statistics Service (NASS) Data |
+| Dataset Name | Land Use/Cover Area frame Survey (LUCAS) |
 | :----------- | :-------------------------------------------- |
-| Description  | Provides data on crop production, acreage, and yields, which can be useful for analyzing crop diversity and rotation practices |
-| Data Access  | https://quickstats.nass.usda.gov/ |
-| Key Features | Crop production, Acreage, Yields, Crop diversity analysis, Rotation practices |
-| Terms of Use | Public domain |
-| Attribution  | USDA NASS |
+| Description  | LUCAS is a survey on land use and land cover carried out by Eurostat, the statistical office of the European Union. It provides harmonized data on land use, land cover, and soil characteristics across the EU. |
+| Data Access  | https://ec.europa.eu/eurostat/web/lucas |
+| Key Features | Land use, land cover, soil characteristics, European Union |
+| Terms of Use | Varies by dataset |
+| Attribution  | Eurostat |
+
+| Dataset Name | Federal Institute for Geosciences and Natural Resources (BGR) - Germany |
+| :----------- | :-------------------------------------------- |
+| Description  | BGR is the central geoscientific authority providing advice to the German Federal Government. They provide soil data and information specific to Germany. |
+| Data Access  | https://www.bgr.bund.de/EN/Home/homepage_node_en.html |
+| Key Features | German soil data, soil properties, soil health indicators |
+| Terms of Use | Varies by dataset |
+| Attribution  | Federal Institute for Geosciences and Natural Resources (BGR) |
+
+| Dataset Name | German Agricultural Soil Inventory (BZE-LW) |
+| :----------- | :-------------------------------------------- |
+| Description  | The BZE-LW is a nationwide inventory of agricultural soils in Germany. It provides data on soil properties, nutrient status, and soil health indicators. |
+| Data Access  | https://www.thuenen.de/en/ak/projects/agricultural-soil-inventory-bze-lw/ |
+| Key Features | Agricultural soils, soil properties, nutrient status, soil health indicators |
+| Terms of Use | Varies by dataset |
+| Attribution  | Thünen Institute |
+
+| Dataset Name | German Weather Service (DWD) - Climate Data |
+| :----------- | :-------------------------------------------- |
+| Description  | The DWD provides climate data and information for Germany, which can be relevant for analyzing agricultural practices and their impact on soil health and crop yields. |
+| Data Access  | https://www.dwd.de/EN/climate_environment/climatemonitoring/climatemonitoring_node.html |
+| Key Features | Climate data, weather data, Germany |
+| Terms of Use | Varies by dataset |
+| Attribution  | German Weather Service (DWD) |
+
+| Dataset Name | Federal Statistical Office (Destatis) - Germany |
+| :----------- | :-------------------------------------------- |
+| Description  | Destatis provides official statistics on various topics, including agriculture, land use, and environmental indicators in Germany. |
+| Data Access  | https://www.destatis.de/EN/Home/_node.html |
+| Key Features | Agricultural statistics, land use data, environmental indicators |
+| Terms of Use | Varies by dataset |
+| Attribution  | Federal Statistical Office (Destatis) |
 
 | Dataset Name | Regenerative Agriculture Dataset by Rodale Institute |
 | :----------- | :-------------------------------------------- |
@@ -47,11 +79,3 @@
 | Key Features | Grassland conditions, Rangeland conditions, Relevant for regenerative grazing practices |
 | Terms of Use | Free for non-commercial use, Contact Global Rangelands for licensing |
 | Attribution  | Global Rangelands and original data providers |
-
-| Dataset Name | regenagri Impact Report 2023 | 
-| :----------- | :-------------------------------------------- |
-| Description  | Provides data on the impact of regenerative agriculture practices on soil health, crop yields, and ecosystem services |
-| Data Access  | https://regenagri.org/impact-report/ |
-| Key Features | Regenerative agriculture practices, Soil health, Crop yields, Ecosystem services |
-| Terms of Use | Public domain |
-| Attribution  | RegenAgri |
