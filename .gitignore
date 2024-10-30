@@ -131,3 +131,11 @@ dist
 
 # local mac filesystem
 .DS_Store
+vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
