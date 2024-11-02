@@ -1,17 +1,19 @@
 import React from 'react';
 import { Tractor } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { MetricCard } from '../ui/MetricCard';
 
 export function TillagePractices() {
+  const { t } = useTranslation();
   const practices = [
-    { name: 'Direktsaat', percentage: 35 },
-    { name: 'Mulchsaat', percentage: 40 },
-    { name: 'Konservierende Bodenbearbeitung', percentage: 25 },
+    { name: t('tillage.noTill'), percentage: 35 },
+    { name: t('tillage.reducedTill'), percentage: 40 },
+    { name: t('tillage.conservation'), percentage: 25 },
   ];
 
   return (
     <MetricCard
-      title="Bodenbearbeitung"
+      title={t('metrics.tillagePractices')}
       icon={<Tractor className="h-6 w-6 text-green-600" />}
     >
       <div className="space-y-4">
