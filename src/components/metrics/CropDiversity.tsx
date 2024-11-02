@@ -1,18 +1,20 @@
 import React from 'react';
 import { Sprout } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { MetricCard } from '../ui/MetricCard';
 
 export function CropDiversity() {
+  const { t } = useTranslation();
   const crops = [
-    { name: 'Zwischenfrüchte', percentage: 30 },
-    { name: 'Hülsenfrüchte', percentage: 25 },
-    { name: 'Getreide', percentage: 25 },
-    { name: 'Hackfrüchte', percentage: 20 },
+    { name: t('crops.coverCrops'), percentage: 30 },
+    { name: t('crops.legumes'), percentage: 25 },
+    { name: t('crops.cereals'), percentage: 25 },
+    { name: t('crops.rootCrops'), percentage: 20 },
   ];
 
   return (
     <MetricCard
-      title="Kulturvielfalt"
+      title={t('metrics.cropDiversity')}
       icon={<Sprout className="h-6 w-6 text-green-600" />}
     >
       <div className="space-y-4">

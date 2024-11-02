@@ -1,26 +1,28 @@
 import React from 'react';
 import { Award } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { MetricCard } from '../ui/MetricCard';
 
 export function SuccessStories() {
+  const { t } = useTranslation();
   const stories = [
     {
-      farmer: 'Thomas Schmidt',
-      location: 'Niedersachsen',
-      achievement: 'Humusaufbau um 1,5% in 3 Jahren durch regenerative Praktiken',
+      farmer: t('stories.farmer1.name'),
+      location: t('stories.farmer1.location'),
+      achievement: t('stories.farmer1.achievement'),
       image: 'https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=320&q=80',
     },
     {
-      farmer: 'Marie Weber',
-      location: 'Bayern',
-      achievement: 'Biodiversität durch Streifenanbau um 60% gesteigert',
+      farmer: t('stories.farmer2.name'),
+      location: t('stories.farmer2.location'),
+      achievement: t('stories.farmer2.achievement'),
       image: 'https://images.unsplash.com/photo-1592982537447-6f2a6a0c8b8b?auto=format&fit=crop&w=320&q=80',
     },
   ];
 
   return (
     <MetricCard
-      title="Erfolgsgeschichten"
+      title={t('metrics.successStories')}
       icon={<Award className="h-6 w-6 text-green-600" />}
     >
       <div className="space-y-4">

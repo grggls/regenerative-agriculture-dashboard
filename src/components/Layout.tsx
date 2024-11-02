@@ -1,11 +1,15 @@
 import React from 'react';
-import { Sprout, Menu } from 'lucide-react';
+import { Sprout } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import { LanguageSelector } from './LanguageSelector';
 
 interface LayoutProps {
   children: React.ReactNode;
 }
 
 export function Layout({ children }: LayoutProps) {
+  const { t } = useTranslation();
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-50">
       <nav className="bg-white border-b border-green-100">
@@ -14,13 +18,11 @@ export function Layout({ children }: LayoutProps) {
             <div className="flex items-center">
               <Sprout className="h-8 w-8 text-green-600" />
               <span className="ml-2 text-xl font-semibold text-gray-900">
-                Regenerative Landwirtschaft
+                {t('nav.title')}
               </span>
             </div>
             <div className="flex items-center">
-              <button className="p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100">
-                <Menu className="h-6 w-6" />
-              </button>
+              <LanguageSelector />
             </div>
           </div>
         </div>
